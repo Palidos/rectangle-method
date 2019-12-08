@@ -13,20 +13,24 @@
 	<div class="func">
 		<span id="func-start"> f(x) = </span>
 		<div class="frac">
+			<span>1</span>
+			<span class="symbol">/</span>
+			<span class="bottom">ln(x)</span>
+		<!-- <div class="frac">
 			<span>x<sup>2</sup> + cos(x / 7)</span>
 			<span class="symbol">/</span>
-			<span class="bottom">x<sup>5</sup> + x + 25</span>
+			<span class="bottom">x<sup>5</sup> + x + 25</span> -->
 		</div>
 	</div>
 	<div class="inputWrapper">
-		<!-- <div class="funcWrapper">
-			<input type="text" name="function" id="function" placeholder="Enter function">
-		</div> -->
+		<div class="funcWrapper">
+			<input type="text" name="points" id="points" placeholder="Enter number of points">
+			<input type="button" id="calc" value="Calculate">
+		</div>
 		<div class="rangeWrapper">
 			<input type="text" name="startRange" id="startRange" placeholder="Enter left bound">
 			<input type="text" name="endRange" id="endRange" placeholder="Enter right bound">
 		</div>
-		<input type="button" id="calc" value="Calculate">
 	</div>
 	<p id="res"></p>
 
