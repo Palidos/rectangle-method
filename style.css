@@ -1,0 +1,42 @@
+.inputWrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	justify-items: center;
+}
+
+#res {
+	display: flex;
+	justify-content: center;
+}
+
+.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+}
+.frac > span {
+  display: block;
+  padding: 0.1em;
+}
+.frac span.bottom {
+  border-top: thin solid #000000;
+}
+.frac span.symbol {
+  display: none;
+} 
+#func-start {
+  margin: auto 0;
+  margin-right: 10px;
+}
+.func {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  border: solid black 2px;
+	max-width: 400px;
+	margin-bottom: 30px;
+}
